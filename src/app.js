@@ -4,7 +4,7 @@ const HelloWordService = require( "./services/hello-world" );
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello World from Express!')
 })
 
 app.get('/:nameToSalute', (req, res) => {
